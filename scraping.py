@@ -11,7 +11,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import WebDriverException
-
 import re
 import numpy as np
 import os
@@ -23,7 +22,7 @@ from docx.opc.constants import RELATIONSHIP_TYPE as RT
 from xml.etree.cElementTree import XML
 import sys
   
-searchTerms = r'apple shareholder class action'
+searchTerms = r'Felipe'
 url = r'http://libguides.usc.edu/go.php?c=9232127'
 username = 'MyUSCPassUsername'
 password = 'MyUSCPassWord'
